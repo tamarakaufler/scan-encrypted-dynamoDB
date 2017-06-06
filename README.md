@@ -12,9 +12,8 @@ Customer ID,Loyalty Card Number,Added Card Date
 666,72166666666,2017/02/16
 ...
 
-** card is in plain text
-
-** current search interval: 017-01-01T00:00:00 till 2027-12-24T00:00:00; ie effective since the release of the loyalty-service till the run of the script
+* card is in plain text
+* current search interval: 017-01-01T00:00:00 till 2027-12-24T00:00:00; ie effective since the release of the loyalty-service till the run of the script
 
 Prerequisites
 =============
