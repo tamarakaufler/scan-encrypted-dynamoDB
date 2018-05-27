@@ -1,5 +1,5 @@
 # scan-encrypted-dynamoDB
-Standalone Java tool to do a search and decryption of an AWS dynamoDB table
+Standalone Java tool to do a search of an AWS dynamoDB table and decryption of encrypted information
 
 * fetches data from loyalty-service DynamoDB table (with encrypted card field)
 * creates a csv file with ids of customers who added their loyalty cards to their adrenalina account within a particular period of time:
