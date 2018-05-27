@@ -1,8 +1,8 @@
 # scan-encrypted-dynamoDB
-Standalone Java tool to do a search of an AWS dynamoDB table and decryption of encrypted information
+Standalone Java tool to do a search of an AWS dynamoDB table containing encrypted data
 
-* fetches data from loyalty-service DynamoDB table (with encrypted card field)
-* creates a csv file with ids of customers who added their loyalty cards to their adrenalina account within a particular period of time:
+* fetches data from loyalty-service DynamoDB table (decrypts on the fly)
+* creates a csv file with ids of customers who added their loyalty cards to their account within a particular period of time:
 
 ```
 Customer ID,Loyalty Card Number,Added Card Date
@@ -21,7 +21,7 @@ Customer ID,Loyalty Card Number,Added Card Date
 Prerequisites
 =============
 1) before running, make sure ~/.aws/credentials contains AWS credential for the correct account
-2) The in AddedCardsFile,java
+2) the application entry point: AddedCardsFile.java 
 3) compile and run (gradle, maven) 
 
 Outcome
